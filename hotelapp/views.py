@@ -15,7 +15,7 @@ def index(request):
     return render(request, 'index.html')
 
 
-def index_1(request):
+def index(request):
     if request.method == 'POST':
         b = massege()
         b.name = request.POST['name']
