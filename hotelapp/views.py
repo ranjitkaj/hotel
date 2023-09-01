@@ -22,8 +22,6 @@ def index(request):
         b.email = request.POST['email']
         b.number = request.POST['number']
         b.msg = request.POST['msg']
-        
-
         b.save()
     return render(request, 'index.html')
     
