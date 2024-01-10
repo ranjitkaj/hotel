@@ -14,6 +14,7 @@ document.querySelectorAll('.contact .row .faq .box h3').forEach(faqBox => {
    }
 });
 
+
 var swiper = new Swiper(".home-slider", {
    loop:true,
    effect: "coverflow",
