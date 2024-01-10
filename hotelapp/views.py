@@ -14,7 +14,6 @@ def index(request):
         a.save()
     return render(request, 'index.html')
 
-
 def index(request):
     if request.method == 'POST':
         b = massege()
