@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import *
 
-
+# views
 def index(request):
     if request.method == 'POST':
         a = register()
@@ -25,6 +25,7 @@ def index(request):
     return render(request, 'index.html')
     
     
+
 
 
     
